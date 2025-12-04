@@ -221,7 +221,7 @@ class _HomeScreenState extends State<HomeScreen> {
       margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       child: ListTile(
         leading: channel.isAceStream 
-            ? const Icon(Icons.p2p, color: Colors.orange) // Icono distintivo para AceStream
+            ? const Icon(Icons.device_hub, color: Colors.orange) // Icono distintivo para AceStream (Cambiado de p2p a device_hub)
             : const Icon(Icons.tv, color: Colors.blue),
         title: Text(channel.name, maxLines: 1, overflow: TextOverflow.ellipsis),
         subtitle: Text(
